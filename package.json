@@ -9,7 +9,7 @@
     "start": "node index.js -start"
   },
   "author": "Veracity Technology Consultants <contact@veracity.it> (https://veracity.it)",
-  "license": "",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
     "url": "https://github.com/veracity-tech/vtc-lrs.git"
