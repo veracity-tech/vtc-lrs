@@ -1,0 +1,37 @@
+.actor {
+        color: #407188;
+        font-weight: bolder;
+    }
+
+    .statement {
+        margin-top: 0
+    }
+
+    .statement [class*="col-"] {
+        margin-top: 0;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .statement .btn {
+        padding: 14px 14px;
+
+        margin: 0;
+    }
+
+    a.btn[aria-expanded="false"]::before, a.btn[aria-expanded="true"]::before
+    {
+           margin: -4px -10px 0px 0px;
+    }
+
+    pre code {}
+
+    pre {
+        font-family: monospace;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .row {
+        padding-bottom: 0px;
+    }

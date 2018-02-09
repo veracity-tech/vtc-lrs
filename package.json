@@ -1,0 +1,69 @@
+{
+  "name": "vtc-lrs",
+  "version": "1.0.6",
+  "description": "A standalone xAPI LRS module indended to be integrated into other systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "node ./scripts/build.js",
+    "start": "node index.js -start"
+  },
+  "author": "Veracity Technology Consultants <contact@veracity.it> (https://veracity.it)",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veracity-tech/vtc-lrs.git"
+  },
+  "keywords": [
+    "Learning Record Store",
+    "LRS",
+    "xAPI",
+    "Experience API",
+    "eLearning",
+    "LMS",
+    "tincan",
+    "tin can",
+    "e-Learning",
+    "SCORM",
+    "cmi5",
+    "experienceapi",
+    "learning management system",
+    "analytics",
+    "ADL",
+    "Advanced Distributed Learning",
+    "Learner Record Store",
+    "Caliper"
+  ],
+  "dependencies": {
+    "ajv": "5.5.2",
+    "better-ajv-errors": "^0.4.2",
+    "chance": "1.0.13",
+    "cors": "2.8.4",
+    "dateformat": "3.0.2",
+    "deepmerge": "2.0.1",
+    "dotenv": "4.0.0",
+    "express": "4.16.2",
+    "express-hbs": "1.0.4",
+    "form-data": "2.3.1",
+    "human-interval": "^0.1.6",
+    "interval-to-human": "^0.1.1",
+    "iso8601-duration": "1.1.1",
+    "json-schema-faker": "^0.5.0-rc12",
+    "jsonwebtoken": "8.1.0",
+    "lodash": "4.17.4",
+    "mongodb": "2.2.31",
+    "multiparty": "4.1.3",
+    "object-hash": "1.2.0",
+    "object-walk": "0.1.1",
+    "passport": "0.4.0",
+    "passport-http": "0.3.0",
+    "request": "2.83.0",
+    "time-ago": "0.1.0",
+    "uglify-es": "^3.3.7"
+  },
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "0.2.0",
+    "uglifyjs-webpack-plugin": "1.1.6",
+    "webpack": "3.10.0"
+  }
+}

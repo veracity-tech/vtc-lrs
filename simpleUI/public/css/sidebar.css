@@ -1,0 +1,216 @@
+.navbarTopLogo{
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    position: fixed;
+    top: 100px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 41px;
+    }
+
+.wrapper {
+        display: flex;
+        align-items: stretch;
+        background: #274654;
+    }
+
+    #sidebar {
+        min-width: 250px;
+        max-width: 250px;
+    }
+
+    #sidebar.active {
+        margin-left: -300px;
+    }
+
+    #sidebar {
+        min-width: 301px;
+        max-width: 301px;
+        min-height: 100vh;
+    }
+
+    a[data-toggle="collapse"] {
+        position: relative;
+    }
+
+    a[aria-expanded="false"]::before,
+    a[aria-expanded="true"]::before {
+        content: '\e259';
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-family: 'Glyphicons Halflings';
+        font-size: 0.6em;
+        color: #84b761;
+    }
+
+    a[aria-expanded="true"]::before {
+        content: '\e260';
+    }
+   
+     
+
+    @media (max-width: 768px) {
+        .stuck_container
+        {
+            display: none;
+        }
+        header
+        {
+                 padding-bottom: 0px; 
+        }
+        #sidebar {
+           
+        }
+        #sidebar.active {
+           
+        }
+    }
+
+    a,
+    a:hover,
+    a:focus {
+        color: inherit;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+
+    #sidebar {
+        /* don't forget to add all the previously mentioned styles here too */
+        background: #274654;
+        color: #fff;
+        transition: all 0.3s;
+        border-right: 1px solid #eaeaea;
+        box-shadow: 3px 1px 10px #5656561f;
+        z-index: 100;
+        position: fixed;
+        /* font-size: 10px; */
+    }
+
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #407188;
+        color: white;
+    }
+
+    #sidebar ul.components {
+        /* padding: 20px 0; */
+        /* border-bottom: 1px solid #47748b; */
+    }
+
+    #sidebar ul p {
+        color: #fff;
+        padding: 10px;
+    }
+ a[aria-expanded="true"] {
+        color: #fff;
+        background: #407188;
+        border-left: 7px solid #407188;
+    }
+    #sidebar ul li a[aria-expanded="true"]
+    {
+        border-left: 7px solid #407188;
+    }
+    #sidebar ul li a {
+        padding: 3px 10px;
+        font-size: .9em;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-transform: capitalize;
+        border-left: 8px solid #274654;
+    }
+
+    #sidebar ul li a:hover .fa {
+        color:#1f3742;
+    }
+
+    #sidebar ul li a:hover {
+        color: #ffffff;
+        background: #84b761;
+        border-color: #84b761;
+    }
+    #sidebar h3
+    {
+        color:white;
+    }
+    #sidebar ul li.active>a
+    {
+         color: #fff;
+         background: #1F3742;
+         border-left: 7px solid #84B761;
+    }
+   
+    ul ul
+    {
+        
+box-shadow: inset -1px -3px 6px 0px #0000001f;
+        
+background: #274654;
+    }
+    ul ul a {
+        font-size: 0.8em !important;
+        padding-left: 30px;
+        background: transparent;
+    }
+    main
+    {
+            width: 100%;
+            margin-left: 0px;
+    }
+    main.sidebarOpen
+    {
+        width: calc( 100% - 300px );
+        margin-left: 300px;
+    }
+    #sidebarCollapse
+    {
+        float: left;
+        color: #84b761;
+        background: transparent;
+    }
+    #sidebarCollapse:focus
+    {
+        border: none;
+        outline: none;
+    }
+    #sidebar .fa
+    {
+          color: #84b761;
+          margin-right: 1em;
+          width: 22px;
+          text-align: center;
+    }   
+    #sidebar ul li ul li a
+    {
+        padding-left: 70px;
+    } 
+
+    #sidebar ul li a[aria-expanded="true"]:hover {
+        color: #000;
+        background: #407188;
+    }
+
+    #content
+    {
+        transition: width,margin-left .3s;
+    }
+
+      @media (max-width: 576px) {
+        #sidebar {
+            display: none;
+        }
+       main
+        {
+                width: 100%;
+                margin-left: 0px;
+        }
+        main.sidebarOpen
+        {
+            width: 100%;
+                margin-left: 0px;
+        }
+
+     }

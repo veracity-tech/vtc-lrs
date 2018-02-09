@@ -1,0 +1,126 @@
+
+    input[type=checkbox], input[type=radio] .inputcheck
+    {
+                display: inline-block;
+    width: auto;
+    vertical-align: text-bottom;
+    height: auto;
+    margin-top: 11px;
+
+    }
+    .group-span-filestyle label
+    {
+    margin-top: 0px;
+    }
+    label
+    {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 7.5px;
+    font-weight: 700;
+    text-align: right;
+    direction: rtl;
+    white-space: nowrap;
+    margin-top: 0px !important;
+    }
+    .helptext
+    {
+        color: gray;
+    font-style: italic;
+    }
+    .checkpreview
+    {
+            max-height: 10em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.2) inset;
+    margin-top: 2em;
+    padding: 1.0em;
+    }
+    .labelText
+    {
+    font-weight: 700;
+    color: black;
+    margin-top: 6.5px;
+    margin-bottom: 0px;
+    }
+    .input-group
+    {
+        width: 100%;
+    }
+    .fuelux .checkbox-custom:before
+    {
+        padding:1px 2px 0px 1px !important;
+    }
+    .validtionFail
+    {
+        background: #E99
+    }
+
+	.tree-item > .tree-item
+	{
+		padding-left: 20px;
+	}
+
+	details.tree-item > .tree-item
+	{
+		border-left: dotted grey 1px;
+	}
+
+	.scrollbox {
+		max-height: 300px;
+		overflow: auto;
+	}
+    .ui-menu-item
+    {
+
+    }
+    ul.form-list li
+    {
+            font-size: 14px;
+            font-weight: bold;
+            width: 100%;
+            clear: both;
+    }
+    h2 {
+ 
+    line-height: 116px;
+ 
+}
+input::placeholder
+{
+    color:black;
+}
+input:placeholder-shown
+{
+    color: black;
+}
+.bootstrap-filestyle input
+{
+    height:56px;
+}
+.col-md-9
+{
+    margin-top: 0
+}
+.row
+{
+        padding-bottom: 29px;
+}
+#submit
+{
+    margin-top: 30px
+}
+.checkbox
+{
+       width: 20px;
+}
+.input-group input
+{
+    font-size: 24px;
+        margin-top: -7px;
+}
+.form-group .help-block {
+    margin-top: -9px;
+    font-size: 12px;
+}

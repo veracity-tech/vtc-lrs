@@ -1,0 +1,1295 @@
+/**
+ * Title: Material Design Flaticon Pack
+ * Author: Google
+ * Source: http://www.flaticon.com/packs/material-design
+ * License:  CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/)
+ */
+@font-face {
+	font-family: "material-design";
+	src: url("../fonts/material-design.eot");
+	src: url("../fonts/material-design.eot#iefix") format("embedded-opentype"),
+	url("../fonts/material-design.woff") format("woff"),
+	url("../fonts/material-design.ttf") format("truetype"),
+	url("../fonts/material-design.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.material-design-ico,
+[class^="material-design-"]:before, [class*=" material-design-"]:before,
+[class^="material-design-"]:after, [class*=" material-design-"]:after {   
+	font-family: "material-design";
+    font-size: inherit;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.material-design-account4:before {
+	content: "\e000";
+}
+.material-design-add179:before {
+	content: "\e001";
+}
+.material-design-add180:before {
+	content: "\e002";
+}
+.material-design-add181:before {
+	content: "\e003";
+}
+.material-design-add182:before {
+	content: "\e004";
+}
+.material-design-add183:before {
+	content: "\e005";
+}
+.material-design-add184:before {
+	content: "\e006";
+}
+.material-design-add186:before {
+	content: "\e007";
+}
+.material-design-adjust6:before {
+	content: "\e008";
+}
+.material-design-airplane106:before {
+	content: "\e009";
+}
+.material-design-android11:before {
+	content: "\e00a";
+}
+.material-design-android12:before {
+	content: "\e00b";
+}
+.material-design-apple70:before {
+	content: "\e00c";
+}
+.material-design-attachment19:before {
+	content: "\e00d";
+}
+.material-design-auto1:before {
+	content: "\e00e";
+}
+.material-design-automatic2:before {
+	content: "\e00f";
+}
+.material-design-automatic3:before {
+	content: "\e010";
+}
+.material-design-back57:before {
+	content: "\e011";
+}
+.material-design-backspace1:before {
+	content: "\e012";
+}
+.material-design-bed24:before {
+	content: "\e013";
+}
+.material-design-been:before {
+	content: "\e014";
+}
+.material-design-birthday20:before {
+	content: "\e015";
+}
+.material-design-black394:before {
+	content: "\e016";
+}
+.material-design-black395:before {
+	content: "\e017";
+}
+.material-design-black396:before {
+	content: "\e018";
+}
+.material-design-black397:before {
+	content: "\e019";
+}
+.material-design-black398:before {
+	content: "\e01a";
+}
+.material-design-black399:before {
+	content: "\e01b";
+}
+.material-design-black400:before {
+	content: "\e01c";
+}
+.material-design-black401:before {
+	content: "\e01d";
+}
+.material-design-black402:before {
+	content: "\e01e";
+}
+.material-design-blank30:before {
+	content: "\e01f";
+}
+.material-design-blank31:before {
+	content: "\e020";
+}
+.material-design-blank32:before {
+	content: "\e021";
+}
+.material-design-blank33:before {
+	content: "\e022";
+}
+.material-design-blogger12:before {
+	content: "\e023";
+}
+.material-design-blueetooth:before {
+	content: "\e024";
+}
+.material-design-bluetooth21:before {
+	content: "\e025";
+}
+.material-design-bluetooth22:before {
+	content: "\e026";
+}
+.material-design-bluetooth23:before {
+	content: "\e027";
+}
+.material-design-bluetooth24:before {
+	content: "\e028";
+}
+.material-design-bluetooth25:before {
+	content: "\e029";
+}
+.material-design-bookmark45:before {
+	content: "\e02a";
+}
+.material-design-bookmark46:before {
+	content: "\e02b";
+}
+.material-design-bookmark47:before {
+	content: "\e02c";
+}
+.material-design-bookmark48:before {
+	content: "\e02d";
+}
+.material-design-briefcase49:before {
+	content: "\e02e";
+}
+.material-design-briefcase50:before {
+	content: "\e02f";
+}
+.material-design-brightness10:before {
+	content: "\e030";
+}
+.material-design-brochure6:before {
+	content: "\e031";
+}
+.material-design-bubble8:before {
+	content: "\e032";
+}
+.material-design-bug18:before {
+	content: "\e033";
+}
+.material-design-burn9:before {
+	content: "\e034";
+}
+.material-design-button11:before {
+	content: "\e035";
+}
+.material-design-call47:before {
+	content: "\e036";
+}
+.material-design-call48:before {
+	content: "\e037";
+}
+.material-design-call49:before {
+	content: "\e038";
+}
+.material-design-camera59:before {
+	content: "\e039";
+}
+.material-design-camera60:before {
+	content: "\e03a";
+}
+.material-design-cancel19:before {
+	content: "\e03b";
+}
+.material-design-caps1:before {
+	content: "\e03c";
+}
+.material-design-caps:before {
+	content: "\e03d";
+}
+.material-design-car145:before {
+	content: "\e03e";
+}
+.material-design-car146:before {
+	content: "\e03f";
+}
+.material-design-car147:before {
+	content: "\e040";
+}
+.material-design-cell10:before {
+	content: "\e041";
+}
+.material-design-cell11:before {
+	content: "\e042";
+}
+.material-design-cell12:before {
+	content: "\e043";
+}
+.material-design-change3:before {
+	content: "\e044";
+}
+.material-design-chat75:before {
+	content: "\e045";
+}
+.material-design-chat76:before {
+	content: "\e046";
+}
+.material-design-check51:before {
+	content: "\e047";
+}
+.material-design-check52:before {
+	content: "\e048";
+}
+.material-design-chemistry17:before {
+	content: "\e049";
+}
+.material-design-circle107:before {
+	content: "\e04a";
+}
+.material-design-circle108:before {
+	content: "\e04b";
+}
+.material-design-circles23:before {
+	content: "\e04c";
+}
+.material-design-circumference:before {
+	content: "\e04d";
+}
+.material-design-city24:before {
+	content: "\e04e";
+}
+.material-design-clapperboard4:before {
+	content: "\e04f";
+}
+.material-design-clapperboard5:before {
+	content: "\e050";
+}
+.material-design-clear5:before {
+	content: "\e051";
+}
+.material-design-clipboard99:before {
+	content: "\e052";
+}
+.material-design-clock100:before {
+	content: "\e053";
+}
+.material-design-close47:before {
+	content: "\e054";
+}
+.material-design-closed64:before {
+	content: "\e055";
+}
+.material-design-cloud302:before {
+	content: "\e056";
+}
+.material-design-cloud303:before {
+	content: "\e057";
+}
+.material-design-cloud304:before {
+	content: "\e058";
+}
+.material-design-cloud305:before {
+	content: "\e059";
+}
+.material-design-cloud306:before {
+	content: "\e05a";
+}
+.material-design-cloud307:before {
+	content: "\e05b";
+}
+.material-design-compass106:before {
+	content: "\e05c";
+}
+.material-design-connection21:before {
+	content: "\e05d";
+}
+.material-design-copy31:before {
+	content: "\e05e";
+}
+.material-design-create2:before {
+	content: "\e05f";
+}
+.material-design-create3:before {
+	content: "\e060";
+}
+.material-design-credit98:before {
+	content: "\e061";
+}
+.material-design-crop13:before {
+	content: "\e062";
+}
+.material-design-crop14:before {
+	content: "\e063";
+}
+.material-design-cut23:before {
+	content: "\e064";
+}
+.material-design-dark55:before {
+	content: "\e065";
+}
+.material-design-developer2:before {
+	content: "\e066";
+}
+.material-design-device4:before {
+	content: "\e067";
+}
+.material-design-device5:before {
+	content: "\e068";
+}
+.material-design-disc30:before {
+	content: "\e069";
+}
+.material-design-do10:before {
+	content: "\e06a";
+}
+.material-design-double126:before {
+	content: "\e06b";
+}
+.material-design-download162:before {
+	content: "\e06c";
+}
+.material-design-download164:before {
+	content: "\e06d";
+}
+.material-design-download166:before {
+	content: "\e06e";
+}
+.material-design-downwards:before {
+	content: "\e06f";
+}
+.material-design-drafts:before {
+	content: "\e070";
+}
+.material-design-drop25:before {
+	content: "\e071";
+}
+.material-design-drop26:before {
+	content: "\e072";
+}
+.material-design-drop27:before {
+	content: "\e073";
+}
+.material-design-earth205:before {
+	content: "\e074";
+}
+.material-design-ellipsis1:before {
+	content: "\e075";
+}
+.material-design-email107:before {
+	content: "\e076";
+}
+.material-design-emoticon117:before {
+	content: "\e077";
+}
+.material-design-end3:before {
+	content: "\e078";
+}
+.material-design-enter5:before {
+	content: "\e079";
+}
+.material-design-exit13:before {
+	content: "\e07a";
+}
+.material-design-expand38:before {
+	content: "\e07b";
+}
+.material-design-expand39:before {
+	content: "\e07c";
+}
+.material-design-facebook56:before {
+	content: "\e07d";
+}
+.material-design-fast46:before {
+	content: "\e07e";
+}
+.material-design-favorite21:before {
+	content: "\e07f";
+}
+.material-design-favorite22:before {
+	content: "\e080";
+}
+.material-design-filled13:before {
+	content: "\e081";
+}
+.material-design-film61:before {
+	content: "\e082";
+}
+.material-design-filter20:before {
+	content: "\e083";
+}
+.material-design-flash25:before {
+	content: "\e084";
+}
+.material-design-flash26:before {
+	content: "\e085";
+}
+.material-design-folder215:before {
+	content: "\e086";
+}
+.material-design-forward18:before {
+	content: "\e087";
+}
+.material-design-forward19:before {
+	content: "\e088";
+}
+.material-design-framed1:before {
+	content: "\e089";
+}
+.material-design-front15:before {
+	content: "\e08a";
+}
+.material-design-front16:before {
+	content: "\e08b";
+}
+.material-design-front17:before {
+	content: "\e08c";
+}
+.material-design-full46:before {
+	content: "\e08d";
+}
+.material-design-gamepad3:before {
+	content: "\e08e";
+}
+.material-design-gamepad4:before {
+	content: "\e08f";
+}
+.material-design-get:before {
+	content: "\e090";
+}
+.material-design-gmail3:before {
+	content: "\e091";
+}
+.material-design-go10:before {
+	content: "\e092";
+}
+.material-design-good4:before {
+	content: "\e093";
+}
+.material-design-good5:before {
+	content: "\e094";
+}
+.material-design-google117:before {
+	content: "\e095";
+}
+.material-design-google118:before {
+	content: "\e096";
+}
+.material-design-google119:before {
+	content: "\e097";
+}
+.material-design-google120:before {
+	content: "\e098";
+}
+.material-design-google121:before {
+	content: "\e099";
+}
+.material-design-google122:before {
+	content: "\e09a";
+}
+.material-design-google123:before {
+	content: "\e09b";
+}
+.material-design-google124:before {
+	content: "\e09c";
+}
+.material-design-google125:before {
+	content: "\e09d";
+}
+.material-design-google126:before {
+	content: "\e09e";
+}
+.material-design-google127:before {
+	content: "\e09f";
+}
+.material-design-google128:before {
+	content: "\e0a0";
+}
+.material-design-google129:before {
+	content: "\e0a1";
+}
+.material-design-google130:before {
+	content: "\e0a2";
+}
+.material-design-google131:before {
+	content: "\e0a3";
+}
+.material-design-google132:before {
+	content: "\e0a4";
+}
+.material-design-google133:before {
+	content: "\e0a5";
+}
+.material-design-google134:before {
+	content: "\e0a6";
+}
+.material-design-google135:before {
+	content: "\e0a7";
+}
+.material-design-google136:before {
+	content: "\e0a8";
+}
+.material-design-google137:before {
+	content: "\e0a9";
+}
+.material-design-gps25:before {
+	content: "\e0aa";
+}
+.material-design-gps26:before {
+	content: "\e0ab";
+}
+.material-design-gps27:before {
+	content: "\e0ac";
+}
+.material-design-gps28:before {
+	content: "\e0ad";
+}
+.material-design-graduate32:before {
+	content: "\e0ae";
+}
+.material-design-halffilled1:before {
+	content: "\e0af";
+}
+.material-design-hangouts:before {
+	content: "\e0b0";
+}
+.material-design-headset11:before {
+	content: "\e0b1";
+}
+.material-design-headset12:before {
+	content: "\e0b2";
+}
+.material-design-help18:before {
+	content: "\e0b3";
+}
+.material-design-help19:before {
+	content: "\e0b4";
+}
+.material-design-hide3:before {
+	content: "\e0b5";
+}
+.material-design-high20:before {
+	content: "\e0b6";
+}
+.material-design-high21:before {
+	content: "\e0b7";
+}
+.material-design-high22:before {
+	content: "\e0b8";
+}
+.material-design-history6:before {
+	content: "\e0b9";
+}
+.material-design-home149:before {
+	content: "\e0ba";
+}
+.material-design-horizontal39:before {
+	content: "\e0bb";
+}
+.material-design-hotel68:before {
+	content: "\e0bc";
+}
+.material-design-https:before {
+	content: "\e0bd";
+}
+.material-design-import:before {
+	content: "\e0be";
+}
+.material-design-insert4:before {
+	content: "\e0bf";
+}
+.material-design-instagram16:before {
+	content: "\e0c0";
+}
+.material-design-invert1:before {
+	content: "\e0c1";
+}
+.material-design-keyboard53:before {
+	content: "\e0c2";
+}
+.material-design-keyboard54:before {
+	content: "\e0c3";
+}
+.material-design-label31:before {
+	content: "\e0c4";
+}
+.material-design-landscape10:before {
+	content: "\e0c5";
+}
+.material-design-laptop117:before {
+	content: "\e0c6";
+}
+.material-design-left216:before {
+	content: "\e0c7";
+}
+.material-design-left217:before {
+	content: "\e0c8";
+}
+.material-design-left218:before {
+	content: "\e0c9";
+}
+.material-design-light88:before {
+	content: "\e0ca";
+}
+.material-design-link60:before {
+	content: "\e0cb";
+}
+.material-design-linkedin24:before {
+	content: "\e0cc";
+}
+.material-design-list88:before {
+	content: "\e0cd";
+}
+.material-design-list89:before {
+	content: "\e0ce";
+}
+.material-design-location41:before {
+	content: "\e0cf";
+}
+.material-design-locked57:before {
+	content: "\e0d0";
+}
+.material-design-locked58:before {
+	content: "\e0d1";
+}
+.material-design-low34:before {
+	content: "\e0d2";
+}
+.material-design-magic20:before {
+	content: "\e0d3";
+}
+.material-design-man459:before {
+	content: "\e0d4";
+}
+.material-design-man460:before {
+	content: "\e0d5";
+}
+.material-design-map102:before {
+	content: "\e0d6";
+}
+.material-design-map103:before {
+	content: "\e0d7";
+}
+.material-design-mark1:before {
+	content: "\e0d8";
+}
+.material-design-mark2:before {
+	content: "\e0d9";
+}
+.material-design-medium5:before {
+	content: "\e0da";
+}
+.material-design-medium6:before {
+	content: "\e0db";
+}
+.material-design-medium7:before {
+	content: "\e0dc";
+}
+.material-design-memory1:before {
+	content: "\e0dd";
+}
+.material-design-menu55:before {
+	content: "\e0de";
+}
+.material-design-merge:before {
+	content: "\e0df";
+}
+.material-design-microphone84:before {
+	content: "\e0e0";
+}
+.material-design-microphone85:before {
+	content: "\e0e1";
+}
+.material-design-microsoft7:before {
+	content: "\e0e2";
+}
+.material-design-microsoft8:before {
+	content: "\e0e3";
+}
+.material-design-missed:before {
+	content: "\e0e4";
+}
+.material-design-mountain31:before {
+	content: "\e0e5";
+}
+.material-design-mountain32:before {
+	content: "\e0e6";
+}
+.material-design-mountains14:before {
+	content: "\e0e7";
+}
+.material-design-move26:before {
+	content: "\e0e8";
+}
+.material-design-new102:before {
+	content: "\e0e9";
+}
+.material-design-new103:before {
+	content: "\e0ea";
+}
+.material-design-nfc1:before {
+	content: "\e0eb";
+}
+.material-design-notifications1:before {
+	content: "\e0ec";
+}
+.material-design-notifications2:before {
+	content: "\e0ed";
+}
+.material-design-notifications:before {
+	content: "\e0ee";
+}
+.material-design-painter14:before {
+	content: "\e0ef";
+}
+.material-design-panoramic1:before {
+	content: "\e0f0";
+}
+.material-design-parking14:before {
+	content: "\e0f1";
+}
+.material-design-pause44:before {
+	content: "\e0f2";
+}
+.material-design-person325:before {
+	content: "\e0f3";
+}
+.material-design-phone370:before {
+	content: "\e0f4";
+}
+.material-design-phone371:before {
+	content: "\e0f5";
+}
+.material-design-phone372:before {
+	content: "\e0f6";
+}
+.material-design-phone373:before {
+	content: "\e0f7";
+}
+.material-design-phone374:before {
+	content: "\e0f8";
+}
+.material-design-phone375:before {
+	content: "\e0f9";
+}
+.material-design-photo210:before {
+	content: "\e0fa";
+}
+.material-design-photo211:before {
+	content: "\e0fb";
+}
+.material-design-photo212:before {
+	content: "\e0fc";
+}
+.material-design-photographic1:before {
+	content: "\e0fd";
+}
+.material-design-pinterest33:before {
+	content: "\e0fe";
+}
+.material-design-planet29:before {
+	content: "\e0ff";
+}
+.material-design-play105:before {
+	content: "\e100";
+}
+.material-design-play106:before {
+	content: "\e101";
+}
+.material-design-play107:before {
+	content: "\e102";
+}
+.material-design-play108:before {
+	content: "\e103";
+}
+.material-design-play109:before {
+	content: "\e104";
+}
+.material-design-plus80:before {
+	content: "\e105";
+}
+.material-design-poll:before {
+	content: "\e106";
+}
+.material-design-power106:before {
+	content: "\e107";
+}
+.material-design-previous14:before {
+	content: "\e108";
+}
+.material-design-printer88:before {
+	content: "\e109";
+}
+.material-design-problems:before {
+	content: "\e10a";
+}
+.material-design-progress10:before {
+	content: "\e10b";
+}
+.material-design-public10:before {
+	content: "\e10c";
+}
+.material-design-public11:before {
+	content: "\e10d";
+}
+.material-design-public9:before {
+	content: "\e10e";
+}
+.material-design-puzzle37:before {
+	content: "\e10f";
+}
+.material-design-radio51:before {
+	content: "\e110";
+}
+.material-design-random5:before {
+	content: "\e111";
+}
+.material-design-rate:before {
+	content: "\e112";
+}
+.material-design-read5:before {
+	content: "\e113";
+}
+.material-design-receipt9:before {
+	content: "\e114";
+}
+.material-design-record9:before {
+	content: "\e115";
+}
+.material-design-refresh55:before {
+	content: "\e116";
+}
+.material-design-refresh56:before {
+	content: "\e117";
+}
+.material-design-reminder6:before {
+	content: "\e118";
+}
+.material-design-replay4:before {
+	content: "\e119";
+}
+.material-design-reply18:before {
+	content: "\e11a";
+}
+.material-design-report:before {
+	content: "\e11b";
+}
+.material-design-rewind45:before {
+	content: "\e11c";
+}
+.material-design-right237:before {
+	content: "\e11d";
+}
+.material-design-right244:before {
+	content: "\e11e";
+}
+.material-design-ring24:before {
+	content: "\e11f";
+}
+.material-design-rotate11:before {
+	content: "\e120";
+}
+.material-design-rotate12:before {
+	content: "\e121";
+}
+.material-design-round50:before {
+	content: "\e122";
+}
+.material-design-round51:before {
+	content: "\e123";
+}
+.material-design-round52:before {
+	content: "\e124";
+}
+.material-design-round53:before {
+	content: "\e125";
+}
+.material-design-round54:before {
+	content: "\e126";
+}
+.material-design-round55:before {
+	content: "\e127";
+}
+.material-design-round56:before {
+	content: "\e128";
+}
+.material-design-round57:before {
+	content: "\e129";
+}
+.material-design-round58:before {
+	content: "\e12a";
+}
+.material-design-rounded54:before {
+	content: "\e12b";
+}
+.material-design-rounded55:before {
+	content: "\e12c";
+}
+.material-design-rounded56:before {
+	content: "\e12d";
+}
+.material-design-rounded57:before {
+	content: "\e12e";
+}
+.material-design-rounded58:before {
+	content: "\e12f";
+}
+.material-design-rounded59:before {
+	content: "\e130";
+}
+.material-design-rounded60:before {
+	content: "\e131";
+}
+.material-design-rubbish:before {
+	content: "\e132";
+}
+.material-design-save20:before {
+	content: "\e133";
+}
+.material-design-schedule2:before {
+	content: "\e134";
+}
+.material-design-screen44:before {
+	content: "\e135";
+}
+.material-design-screen45:before {
+	content: "\e136";
+}
+.material-design-screen46:before {
+	content: "\e137";
+}
+.material-design-screen47:before {
+	content: "\e138";
+}
+.material-design-screen48:before {
+	content: "\e139";
+}
+.material-design-screen49:before {
+	content: "\e13a";
+}
+.material-design-sd7:before {
+	content: "\e13b";
+}
+.material-design-sd8:before {
+	content: "\e13c";
+}
+.material-design-search100:before {
+	content: "\e13d";
+}
+.material-design-searching41:before {
+	content: "\e13e";
+}
+.material-design-select3:before {
+	content: "\e13f";
+}
+.material-design-select4:before {
+	content: "\e140";
+}
+.material-design-send12:before {
+	content: "\e141";
+}
+.material-design-send13:before {
+	content: "\e142";
+}
+.material-design-send14:before {
+	content: "\e143";
+}
+.material-design-server40:before {
+	content: "\e144";
+}
+.material-design-set5:before {
+	content: "\e145";
+}
+.material-design-set6:before {
+	content: "\e146";
+}
+.material-design-settings49:before {
+	content: "\e147";
+}
+.material-design-settings50:before {
+	content: "\e148";
+}
+.material-design-share39:before {
+	content: "\e149";
+}
+.material-design-shared1:before {
+	content: "\e14a";
+}
+.material-design-shining2:before {
+	content: "\e14b";
+}
+.material-design-shining3:before {
+	content: "\e14c";
+}
+.material-design-shopping231:before {
+	content: "\e14d";
+}
+.material-design-shopping232:before {
+	content: "\e14e";
+}
+.material-design-show4:before {
+	content: "\e14f";
+}
+.material-design-show5:before {
+	content: "\e150";
+}
+.material-design-show6:before {
+	content: "\e151";
+}
+.material-design-show7:before {
+	content: "\e152";
+}
+.material-design-show8:before {
+	content: "\e153";
+}
+.material-design-shuffle24:before {
+	content: "\e154";
+}
+.material-design-sim2:before {
+	content: "\e155";
+}
+.material-design-smartphone19:before {
+	content: "\e156";
+}
+.material-design-smartphone20:before {
+	content: "\e157";
+}
+.material-design-sms5:before {
+	content: "\e158";
+}
+.material-design-sms6:before {
+	content: "\e159";
+}
+.material-design-sms7:before {
+	content: "\e15a";
+}
+.material-design-snake4:before {
+	content: "\e15b";
+}
+.material-design-sort52:before {
+	content: "\e15c";
+}
+.material-design-speech108:before {
+	content: "\e15d";
+}
+.material-design-split4:before {
+	content: "\e15e";
+}
+.material-design-square181:before {
+	content: "\e15f";
+}
+.material-design-stop46:before {
+	content: "\e160";
+}
+.material-design-swap2:before {
+	content: "\e161";
+}
+.material-design-swap3:before {
+	content: "\e162";
+}
+.material-design-switch27:before {
+	content: "\e163";
+}
+.material-design-switch28:before {
+	content: "\e164";
+}
+.material-design-switch29:before {
+	content: "\e165";
+}
+.material-design-switch30:before {
+	content: "\e166";
+}
+.material-design-synchronization3:before {
+	content: "\e167";
+}
+.material-design-synchronization4:before {
+	content: "\e168";
+}
+.material-design-synchronization5:before {
+	content: "\e169";
+}
+.material-design-tab3:before {
+	content: "\e16a";
+}
+.material-design-tablet95:before {
+	content: "\e16b";
+}
+.material-design-tack:before {
+	content: "\e16c";
+}
+.material-design-tag71:before {
+	content: "\e16d";
+}
+.material-design-telephone105:before {
+	content: "\e16e";
+}
+.material-design-thermostat1:before {
+	content: "\e16f";
+}
+.material-design-three168:before {
+	content: "\e170";
+}
+.material-design-three170:before {
+	content: "\e171";
+}
+.material-design-thumb53:before {
+	content: "\e172";
+}
+.material-design-thumb54:before {
+	content: "\e173";
+}
+.material-design-tick7:before {
+	content: "\e174";
+}
+.material-design-timelapse:before {
+	content: "\e175";
+}
+.material-design-traffic21:before {
+	content: "\e176";
+}
+.material-design-tumblr22:before {
+	content: "\e177";
+}
+.material-design-turn17:before {
+	content: "\e178";
+}
+.material-design-turn18:before {
+	content: "\e179";
+}
+.material-design-turn19:before {
+	content: "\e17a";
+}
+.material-design-turn20:before {
+	content: "\e17b";
+}
+.material-design-turn21:before {
+	content: "\e17c";
+}
+.material-design-turn22:before {
+	content: "\e17d";
+}
+.material-design-turn23:before {
+	content: "\e17e";
+}
+.material-design-twitter47:before {
+	content: "\e17f";
+}
+.material-design-two375:before {
+	content: "\e180";
+}
+.material-design-two385:before {
+	content: "\e181";
+}
+.material-design-two393:before {
+	content: "\e182";
+}
+.material-design-underline6:before {
+	content: "\e183";
+}
+.material-design-underline7:before {
+	content: "\e184";
+}
+.material-design-undo19:before {
+	content: "\e185";
+}
+.material-design-unlocked43:before {
+	content: "\e186";
+}
+.material-design-up176:before {
+	content: "\e187";
+}
+.material-design-upload119:before {
+	content: "\e188";
+}
+.material-design-upload120:before {
+	content: "\e189";
+}
+.material-design-usb33:before {
+	content: "\e18a";
+}
+.material-design-user157:before {
+	content: "\e18b";
+}
+.material-design-user158:before {
+	content: "\e18c";
+}
+.material-design-users25:before {
+	content: "\e18d";
+}
+.material-design-verification24:before {
+	content: "\e18e";
+}
+.material-design-videocall:before {
+	content: "\e18f";
+}
+.material-design-view12:before {
+	content: "\e190";
+}
+.material-design-virtual2:before {
+	content: "\e191";
+}
+.material-design-visibility1:before {
+	content: "\e192";
+}
+.material-design-voice32:before {
+	content: "\e193";
+}
+.material-design-voicemail1:before {
+	content: "\e194";
+}
+.material-design-volume47:before {
+	content: "\e195";
+}
+.material-design-volume49:before {
+	content: "\e196";
+}
+.material-design-volume50:before {
+	content: "\e197";
+}
+.material-design-volume51:before {
+	content: "\e198";
+}
+.material-design-warning37:before {
+	content: "\e199";
+}
+.material-design-watch16:before {
+	content: "\e19a";
+}
+.material-design-waving:before {
+	content: "\e19b";
+}
+.material-design-web37:before {
+	content: "\e19c";
+}
+.material-design-website12:before {
+	content: "\e19d";
+}
+.material-design-wifi81:before {
+	content: "\e19e";
+}
+.material-design-wifi82:before {
+	content: "\e19f";
+}
+.material-design-wifi83:before {
+	content: "\e1a0";
+}
+.material-design-window57:before {
+	content: "\e1a1";
+}
+.material-design-work3:before {
+	content: "\e1a2";
+}
+.material-design-workspace:before {
+	content: "\e1a3";
+}
+.material-design-world96:before {
+	content: "\e1a4";
+}
+.material-design-write20:before {
+	content: "\e1a5";
+}
+.material-design-youtube35:before {
+	content: "\e1a6";
+}
