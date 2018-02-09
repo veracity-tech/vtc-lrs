@@ -7,7 +7,7 @@ Data is stored in a MongoDB database.
 The module can also run as a standalone webserver to accept xAPI statements. 
 
 ## Veracity Learning
-Veracity provides a more comprehensive and powerful learning platform: [Veracity Learning]](https://lrs.io). Veracity Learning 
+Veracity provides a more comprehensive and powerful learning platform: [Veracity Learning](https://lrs.io). Veracity Learning 
 offers features such as [ADL's xAPI Launch](https://github.com/adlnet/xapi-launch), lesson uploads, and learning analytics. [Sign up for a free account](https://lrs.io/ui/users/create/) today.
 
 ## Installation
