@@ -1,4 +1,4 @@
-# VTC LRS
+# Veracity LRS Lite
 
 This project is intended to be a fully conformant xAPI implementation that can be integrated into other web projects. The module is published as Express middleware that can be simply integrated into an Express application. 
 
