@@ -7,12 +7,26 @@ Data is stored in a MongoDB database.
 The module can also run as a standalone webserver to accept xAPI statements. 
 
 ## Veracity Learning
-Veracity provides a more comprehensive and powerful learning platform: [Veracity Learning](https://lrs.io). Veracity Learning 
+[Veracity](https://veracity.it/) provides a more comprehensive and powerful learning platform: [Veracity Learning](https://lrs.io). Veracity Learning 
 offers features such as [ADL's xAPI Launch](https://github.com/adlnet/xapi-launch), lesson uploads, and learning analytics. [Sign up for a free account](https://lrs.io/ui/users/create/) today.
 
 ## Installation
 
 `npm install vtc-lrs`
+
+## Changes
+This release represents a major upgrade to the capabilities of the module, and is informed by the millions of xAPI statements stored by our production servers. 
+
+1. Support for clients that mark statements as content-type=text/plain
+1. Support for clients that mis-represent that post invalid JSON to the document endpoints
+1. Support in general for many common errors related to inaccurate HTTP content-type headers
+1. Loose conformance mode - accept misformed statements in many formats, including legacy TinCan style
+1. Accept some variations in conformance in the query - allow short format dates, double encoded JSON agent queries
+1. Aggregation and Advanced Query APIs
+
+### Breaking Changes from Version 1
+All updates above are compatible. The only change to the API is that the 'statementStored' event now sends an array, instead of a single string.
+
 
 ## Use
 
@@ -36,7 +50,7 @@ let options = {
   getUser:function(req, username, password) {
     return new xapi.Account(username,true,true);
   },
-  baseUrl: "/xapi"
+  baseUrl: "http://localhost:3000/xapi"
 };
 app.use("/xapi", new xapi(options) );
 
@@ -56,7 +70,7 @@ A string representing the connection to the MongoDB server.
 
 `baseUrl`
 
-The public facing pathname to the API, not including the domain. This is required so that the API can generate the MORE links correctly.  
+The public facing pathname to the API, including the domain. This is required so that the API can generate the MORE links correctly.  
 
 `getUser`
 
@@ -67,7 +81,9 @@ This function takes the request, the username, and the password, in that order, 
 getUser:function(req, username, password) {
     return new xapi.Account(username, //The name of the agent for the Authority
       true,  //this account has read access to the API
-      true   //this account has write access to the API
+      true,   //this account has write access to the API
+      false,   //this account can only retreive data it posted 
+      true,   //this account can use the advanced search apis
     ); 
   },
 ...
@@ -84,13 +100,13 @@ The API will dispatch events on the LRS object. The current events supported are
     lrs: lrs,
     getUser: getUser,
     connectionString: process.env.connectionString || "mongodb://localhost/bcc5ce8c-0e47-4863-a43a-7a6f8928c2a8",
-    baseUrl: process.env.baseUrl || "/xapi"
+    baseUrl: process.env.host || "http://localhost:3000/xapi"
   } );
-
-  lrs.on("statementStored", function(id)
+  //a batch of statements was stored. A single POSTed statement is treated as an array with one item  
+  lrs.on("statementStored", function(ids)
   {
-    console.log("The ID of the stored statement is " + id);
-    lrs.getStatement(id).then(statement => {
+    console.log("The IDs of the stored statements are " + ids.join(","));
+    lrs.getStatement(ids[0]).then(statement => {
       console.log(statement);
     })
   })
@@ -129,12 +145,13 @@ The connection string must be a string to a MongoDB database. You can also provi
 
 If you want to simply run an LRS, without integrating it into your own Express application, you can simple run the module. You'll have to navigate into the directory with the code. If you've cloned the repo from GitHub, you can just run the commands below. If you've used NPM to install the module, navigate into the directory `./node_modules/vtc-lrs/` before running the commands below.
 
-`npm start` or `node index.js -start` will launch the server with default configuration. To override the defaults, you can create a file called `.env` in the directory alongside index.js. This file must use the format:
+`npm start` or `node index.js -start` will launch the server with default configuration. `node index.js -start -loose` will run the server in loose conformance mode, which will fail the test suite but support TinCan and other common error cases. To override the defaults, you can create a file called `.env` in the directory alongside index.js. This file must use the format:
 
 ```
 connectionString=mongodb://localhost/myLrs
 port=3000
-baseUrl=/xapi
+apiPath=/xapi
+host=http://localhost:3000
 uiPath=/ui
 username=basicApiUser
 password=basicApiPassword
