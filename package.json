@@ -1,6 +1,6 @@
 {
   "name": "vtc-lrs",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "A standalone xAPI LRS module indended to be integrated into other systems",
   "main": "index.js",
   "scripts": {
